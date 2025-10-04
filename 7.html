@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You - Palash Rai</title>
+  <style>
+    /* Background Gradient Animation */
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #ff00cc, #333399);
+      background-size: 400% 400%;
+      animation: gradientMove 8s ease infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+      cursor: url('https://cur.cursors-4u.net/sports/spo-4/spo363.cur'), auto;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .box {
+      text-align: center;
+      border: 2px solid rgba(255,255,255,0.4);
+      padding: 40px 60px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      transition: 0.5s;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+      border-color: #ff80ff;
+      box-shadow: 0 0 30px #ff80ff;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #fff;
+      text-shadow: 0 0 20px #ff00ff;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #ff00ff; }
+      to { text-shadow: 0 0 25px #00ffff; }
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 15px 0;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 1em;
+      color: #ffccff;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>🙏 Thank You 🙏</h1>
+    <p>This is a special message from <strong>Palash Rai</strong></p>
+    <p>for selected me in <strong>IETE MITS Student Chapter</strong> 🎉</p>
+    <!-- <p>Your support and encouragement mean a lot!</p> -->
+    <div class="footer">— Designed with by Palash Rai</div>
+  </div>
+</body>
+</html>
